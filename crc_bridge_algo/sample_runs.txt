@@ -1,0 +1,38 @@
+message : 1101011
+reference_polynomial : 1101
+zeros appended : 3
+message after appending zeros : 1101011000
+computed remainder : 010
+Actual message : 1101011010
+number of bits desired to manipulate : 2
+position of bit to manipulate : 4
+position of bit to manipulate : 7
+manipulated_message : 1101111110
+computed remainder : 111
+error detected
+
+message : 11110
+reference_polynomial : 1101
+zeros appended : 3
+message after appending zeros : 11110000
+computed remainder : 011
+Actual message : 11110011
+number of bits desired to manipulate : 3
+position of bit to manipulate : 2
+position of bit to manipulate : 3
+position of bit to manipulate : 7
+manipulated_message : 11000010
+computed remainder : 101
+error detected
+
+message : 1101011
+reference_polynomial : 1101
+zeros appended : 3
+message after appending zeros : 1101011000
+computed remainder : 010
+Actual message : 1101011010
+number of bits desired to manipulate : 0
+manipulated_message : 1101011010
+computed remainder : 000
+No error detected
+
